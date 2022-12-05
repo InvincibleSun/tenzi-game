@@ -3,6 +3,15 @@ import "./App.css";
 import Die from "./components/Die";
 
 function App() {
+  function allNewDice() {
+    const arrOfNumbers = [];
+    for (let i = 0; i < 10; i++) {
+      const number = Math.ceil(Math.random() * 6);
+      arrOfNumbers.push(number);
+    }
+    return arrOfNumbers;
+  }
+
   return (
     <main>
       <div className="content">
