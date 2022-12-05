@@ -1,3 +1,29 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
   text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+.container {
+  width: 360px;
+  height: 380px;
+  background: #0b2434;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  padding: 34px 35px;
 }
