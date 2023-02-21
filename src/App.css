@@ -19,7 +19,7 @@ main {
   margin: 40px;
   width: 560px;
   height: 580px;
-  background: #0b2434;
+  background: #1f8a70;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,7 @@ h1 {
   font-size: 2rem;
   line-height: 1.5;
   letter-spacing: -0.03em;
-  color: #2b283a;
+  color: #00425a;
 }
 
 p {
@@ -76,7 +76,7 @@ p {
 }
 
 .green {
-  background-color: #59e391;
+  background-color: #1f8a70;
 }
 
 .dice-value {
@@ -86,7 +86,7 @@ p {
 }
 
 button {
-  background: #5035ff;
+  background: #00425a;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.18);
   border-radius: 4px;
   padding: 13px 37px;
@@ -97,5 +97,5 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background: #2711b1;
+  background: #00425a;
 }

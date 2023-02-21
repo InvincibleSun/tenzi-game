@@ -78,7 +78,7 @@ function App() {
         {tenzies && (
           <Confetti
             numberOfPieces={600}
-            colors={["#f5f5f5", "#2b283a", "#4a4e74", "#59e391", "#5035ff", "#2711b1"]}
+            colors={["#00425A", "#1F8A70", "#BFDB38", "#FC7300", "#DFFFD8", "#B5F1CC"]}
           />
         )}
       </div>
